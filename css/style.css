@@ -2,12 +2,12 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 *, *::before, *::after { -webkit-box-sizing: inherit; box-sizing: inherit; }
 
 @font-face {
-	font-family: 'GolosTextWebVF';
-	src: 
-		url(../fonts/golos-text_vf.woff2) format('woff2'),
-		url(../fonts/golos-text_vf.woff) format('woff');
-	font-weight: normal;
-	font-style: normal;
+font-family: 'GolosTextWebVF';
+src: 
+url(../fonts/golos-text_vf.woff2) format('woff2'),
+url(../fonts/golos-text_vf.woff) format('woff');
+font-weight: normal;
+font-style: normal;
 }
 
 body {
