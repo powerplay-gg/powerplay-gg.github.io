@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+        <a href="general_en.html">
+          <img src="img/logo.svg" alt="нет лого" />
+        </a>
+        <div class="randomclass">
+          <a href="work_en.html" class="bold-20">Work</a>
+          <a href="about_en.html" class="bold-20">About me</a>
+        </div>
+        <div>
+          <p class="bold-20">EN</p>
+        </div>
+      </header>
+    <div class="case-with-button">
+      <a href="work_en.html" class="backbutton">
+        <img src="img/backbutton.svg" alt="назад" />
+      </a>
+      <div class="case-main">
+        <div class="case-header">
+          <div class="case-text">
+            <p class="bold-48">Change log</p>
+            <p class="regular-16">Loginet, 2021</p>
+          </div>
+          <p class="regular-20">Entity logging tool</p>
+        </div>
+        <div class="case-inside">
+          <div class="case-inside-part">
+            <p class="bold-34">Problem</p>
+            <p class="regular-20">
+              Users cannot independently find out why an entity is in its
+              current state and how it got there. They write and call to
+              support, thereby heavily loading it.
+            </p>
+          </div>
+          <div class="case-inside-part">
+            <p class="bold-34">Task</p>
+            <p class="regular-20">
+              Create a logging tool so that users can independently find out how
+              and why the entity is in the current status.
+            </p>
+          </div>
+          <div class="case-inside-part">
+            <p class="bold-34">Solution</p>
+            <p class="regular-20">
+              First, it was necessary to decide what information users want to
+              see. We interviewed them and found out that we need to reflect the
+              action, who performed it, the date and time, and the status
+              change.
+            </p>
+            <p class="regular-20">
+              There was already something similar on the product, but only in
+              the shipmend card. This solution does not scale to the entire
+              product, it eats up part of the usable space and is not very
+              informative. I decided not to expand this idea and continued to
+              think what could be done.
+            </p>
+            <div class="img-with-text">
+              <div class="caseimg">
+                <img src="img/changelog1.png" alt="нет изображения" />
+              </div>
+              <p class="regular-16">Current implementation</p>
+            </div>
+            <p class="regular-20">
+              All entities on the portal in view mode have a header with tabs
+              that duplicate the main blocks of the entity. Tabs are a great way
+              to put the changelog in there. All entities have them, under you
+              we have a lot of space to display the necessary information and we
+              do not take up useful space from the card.
+            </p>
+            <div class="doubleimg">
+              <div class="caseimg">
+                <img src="img/changelog2.png" alt="нет изображения" />
+              </div>
+              <div class="caseimg">
+                <img src="img/changelog3.png" alt="нет изображения" />
+              </div>
+            </div>
+            <div class="doubleimg">
+              <div class="caseimg">
+                <img src="img/changelog4.png" alt="нет изображения" />
+              </div>
+              <div class="caseimg">
+                <img src="img/changelog5.png" alt="нет изображения" />
+              </div>
+            </div>
+            <p class="regular-20">
+              The only thing left is to design it. Having made several options,
+              I showed them to several colleagues and friends. As I expected,
+              3rd and 4th options were dismissed, because. graphically does not
+              look very attractive, option 2 seemed more complex and
+              incomprehensible. Stopped at the first one.
+            </p>
+            <div class="img-with-text">
+              <div class="caseimg">
+                <img src="img/changelog6.png" alt="нет изображения" />
+              </div>
+              <div class="caseimg">
+                <img src="img/changelog7.png" alt="нет изображения" />
+              </div>
+              <p class="regular-16">Different options</p>
+            </div>
+            <div class="img-with-text">
+            <div class="caseimg">
+              <img src="img/changelog8.png" alt="нет изображения" />
+            </div>
+            <p class="regular-16">Final option</p>
+            </div>
+          </div>
+          <div class="case-inside-part">
+            <p class="bold-34">Result</p>
+            <p class="regular-20">
+              After the release, the load on support decreased, calls like “Why
+              don’t I see the shipment in the auction, I distributed it there”
+              reduced to almost zero
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

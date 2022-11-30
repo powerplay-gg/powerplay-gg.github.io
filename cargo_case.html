@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="general_en.html">
+        <img src="img/logo.svg" alt="нет лого" />
+      </a>
+      <div class="randomclass">
+        <a href="work_en.html" class="bold-20">Work</a>
+        <a href="about_en.html" class="bold-20">About me</a>
+      </div>
+      <div>
+        <p class="bold-20">EN</p>
+      </div>
+    </header>
+    <div class="case-with-button">
+      <a href="work_en.html" class="backbutton">
+        <img src="img/backbutton.svg" alt="назад" />
+      </a>
+      <div class="case-main">
+        <div class="case-header">
+          <div class="case-text">
+            <p class="bold-48">Service ”Cargo”</p>
+            <p class="regular-16">Loginet, 2021</p>
+          </div>
+          <p class="regular-20">
+            A new distribution service in the product and a new entry point for
+            users
+          </p>
+        </div>
+        <div class="case-inside">
+          <div class="case-inside-part">
+            <p class="bold-34">Task</p>
+            <p class="regular-20">
+              Create a new order distribution module, because the old one is
+              overloaded with functionality and is not suitable for new
+              microservices.
+            </p>
+          </div>
+          <div class="case-inside-part">
+            <p class="bold-34">Solution</p>
+            <p class="regular-20">
+              After talking with the product owner and the analyst, it became
+              clear that the new assignment module is very similar to the old
+              one, just with the functionality cut out. Previously, the entity
+              that was assigned to various services was “Shipment”: it was
+              possible to create many routes in it, within which you can create
+              many points and add cargo by selecting the desired point of
+              loading and unloading.
+            </p>
+            <p class="regular-20">
+              A new entity for assignation called "Order" is a ”Shipment” who
+              limited to two points, because of this I decided to make the
+              process of its creation as similar as possible to the creation of
+              a shipment, so that it would be easier for users to adapt to the
+              new assignation center (they have been using the shipment service
+              for a year already) and save the consistency of the system.
+            </p>
+            <div class="doubleimg">
+              <div class="img-with-text">
+                <div class="caseimg">
+                  <img src="img/cargo1.png" alt="нет изображения" />
+                </div>
+                <p class="regular-16">Current implementation</p>
+              </div>
+              <div class="img-with-text">
+                <div class="caseimg">
+                  <img src="img/cagro2.png" alt="нет изображения" />
+                </div>
+                <p class="regular-16">Current implementation</p>
+              </div>
+            </div>
+            <p class="regular-20">
+              In the process of work, I found a conflict in the work of the
+              service, because in shipment it was possible to add only one cargo
+              to one point, and in orders it was necessary to add a large number
+              of cargoes to one order. In these statements, we contradict
+              ourselves, because services are interconnected, you need to choose
+              one thing: either we remove this functionality from orders, or we
+              add it in shipment. I had to agree with the stakeholders on a
+              meetup to discuss the conflict of business requirements. During
+              the meeting, we also decided to improve the transportation
+              service, because the functionality described in the cargo is
+              critical for key customers. Adding a lot of loads I did through
+              the grid, with adding to the grid through the sidepage.
+            </p>
+            <div class="doubleimg">
+              <img src="img/cargo3.png" alt="нет изображения" />
+              <img src="img/cargo4.png" alt="нет изображения" />
+            </div>
+            <p class="regular-20">
+              After saving the order, the user enters the view mode, where, if
+              necessary, he can change the parameters individually, assignate
+              the order to various services and view the change log.
+            </p>
+            <img src="img/cargo5.png" alt="нет изображения" />
+            <img src="img/cargo6.png" alt="нет изображения" />
+            <img src="img/cargo7.png" alt="нет изображения" />
+            <img src="img/cargo8.png" alt="нет изображения" />
+            <img src="img/cargo9.png" alt="нет изображения" />
+            <img src="img/cargo10.png" alt="нет изображения" />
+          </div>
+          <div class="case-inside-part">
+            <p class="bold-34">Result</p>
+            <p class="regular-20">
+              Before the release, presentations were made to key clients.
+              Clients positively assessed the service, it was convenient and
+              understandable for them to use it, noted the ease of transition
+              from the transportation service and their general logic. After the
+              release of the "cargo" service, users were able to use new
+              services, such as automatic order routing
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

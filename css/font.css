@@ -1,0 +1,76 @@
+.bold-48 {
+font-family: 'Golos Text VF';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 50px;
+letter-spacing: 0.04em;
+color: #252525;
+}
+
+.bold-34 {
+font-family: 'Golos Text VF';
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 41px;
+letter-spacing: 0.04em;
+color: #252525;
+}
+
+.bold-26 {
+font-family: 'Golos Text VF';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.04em;
+color: #252525;
+}
+
+.bold-20 {
+font-family: 'Golos Text VF';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.05em;
+color: black;
+text-decoration: none
+}
+    
+.regular-20 {
+font-family: 'Golos Text VF';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #252525;
+}
+
+.regular-16 {
+font-family: 'Golos Text VF';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #9B9B9F;
+}
+
+.regular-20-gray {
+position: absolute;
+width: 143px;
+height: 30px;
+left: 0px;
+top: 0px;
+font-family: 'Golos Text VF';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #9B9B9F;
+
+}
