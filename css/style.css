@@ -1,6 +1,15 @@
 html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 *, *::before, *::after { -webkit-box-sizing: inherit; box-sizing: inherit; }
 
+@font-face {
+	font-family: 'GolosTextWebVF';
+	src: 
+		url('Golos%20Text_VF.woff2') format('woff2'),
+		url('Golos%20Text_VF.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
     background-color: #FAFAFA;
     width: 1160px;
