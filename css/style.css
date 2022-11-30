@@ -4,8 +4,8 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 @font-face {
 	font-family: 'GolosTextWebVF';
 	src: 
-		url('Golos%20Text_VF.woff2') format('woff2'),
-		url('Golos%20Text_VF.woff') format('woff');
+		url(../fonts/golos-text_vf.woff2) format('woff2'),
+		url(../fonts/golos-text_vf.woff) format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
