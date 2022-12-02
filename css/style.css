@@ -1,13 +1,4 @@
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
+
 
 @font-face {
   font-family: "GolosTextWebVF";
@@ -32,19 +23,10 @@ li {
   text-decoration: none;
 }
 
-html,
-body {
-  height: 100%;
-}
 
 html {
   display: table;
   margin: auto;
-}
-
-body {
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .mainpart {
@@ -270,47 +252,28 @@ body {
   width: 960px;
 }
 
-.experience {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 60px;
-  position: absolute;
-  width: 906px;
+.exp-main {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+width: 906px;
 }
 
-.experience-part {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 20px;
-  position: absolute;
-  width: 906px;
-  left: 0px;
+.exp-text {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 690px;
 }
 
-.experience-card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 16px;
-  width: 693px;
-}
-
-.experience-card-header {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 8px;
-  width: 693px;
-}
-
-.list {
-  width: 693px;
-  padding-left: 24px;
-  margin: auto;
+.line-exp {
+position: absolute;
+width: 2px;
+height: 980px;
+left: 179px;
+margin-top: 19px;
 }
