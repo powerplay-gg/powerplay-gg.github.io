@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/logo.svg" />
+    <title>Журнал изменений</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index_ru.html">
+        <img src="img/logo.svg" alt="нет лого" />
+      </a>
+      <div class="randomclass">
+        <a href="work_ru.html" class="bold-20">Работы</a>
+        <a href="about_ru.html" class="bold-20">Обо мне</a>
+      </div>
+      <div>
+        <a href="change_log_case_en.html" class="bold-20">EN</a>
+      </div>
+    </header>
+    <div class="case-with-button">
+      <a href="work_ru.html" class="backbutton">
+        <img src="img/backbutton.svg" alt="назад" />
+      </a>
+      <div class="case-main">
+        <div class="case-header">
+          <div class="case-text">
+            <p class="bold-48">Журнал изменений</p>
+            <p class="regular-16">Loginet, 2021</p>
+          </div>
+          <p class="regular-20">Дизайн инструмента логирования сущностей</p>
+        </div>
+        <div class="case-inside">
+          <div class="case-inside-part">
+            <p class="bold-34">Проблема</p>
+            <p class="regular-20">
+              Пользователи не могут самостоятельно, без обращений в поддержку,
+              узнать, почему сущность находится в текущем состоянии и как она к
+              этому пришла.
+            </p>
+          </div>
+          <div class="case-inside-part">
+            <p class="bold-34">Задача</p>
+            <p class="regular-20">
+              Создать инструмент логирования сущностей, чтобы пользователи могли
+              самостоятельно узнать, как и благодаря чему сущность находится в
+              текущем статусе.
+            </p>
+          </div>
+          <div class="case-inside-part">
+            <p class="bold-34">Процесс</p>
+            <p class="regular-20">
+              Вначале нужно было определиться, какую информацию хотят видеть
+              пользователи. Мы провели опрос и выяснили, что нам необходимо
+              отразить действие, кто его совершил, дату и время и изменение
+              статуса.
+            </p>
+            <p class="regular-20">
+              На портале уже было нечто подобное, но только в карточке
+              перевозок. Такое решение не скейлится на весь портал, оно отжирает
+              часть полезного пространства и малоинформативно. Я решил не
+              развивать эту идею и думать дальше.
+            </p>
+            <div class="img-with-text">
+              <div class="caseimg">
+                <img src="img/changelog1.png" alt="нет изображения" />
+              </div>
+              <p class="regular-16">Текущая реализация</p>
+            </div>
+            <p class="regular-20">
+              У всех сущностей на портале в режиме просмотра есть хедер с
+              табами, которые дублируют основные блоки сущности. Табы - отличный
+              вариант, чтобы вписать туда журнал изменений. Они есть у всех
+              сущностей, под табой у нас есть много места, чтобы отобразить
+              необходимую информацию и мы не отнимаем полезное пространство у
+              карточки.
+            </p>
+            <div class="doubleimg">
+              <div class="caseimg">
+                <img src="img/changelog2.png" alt="нет изображения" />
+              </div>
+              <div class="caseimg">
+                <img src="img/changelog3.png" alt="нет изображения" />
+              </div>
+            </div>
+            <div class="doubleimg">
+              <div class="caseimg">
+                <img src="img/changelog4.png" alt="нет изображения" />
+              </div>
+              <div class="caseimg">
+                <img src="img/changelog5.png" alt="нет изображения" />
+              </div>
+            </div>
+            <p class="regular-20">
+              Осталось дело за малым - задизайнить это. Сделав несколько
+              вариантов, показал их нескольким коллегам и друзьям. Как я и
+              ожидал, 3 и 4 вариант отвалился, т.к. графически выглядит не очень
+              привлекательным, 2 вариант показался более сложным и не понятным.
+              Остановился на первом.
+            </p>
+            <div class="img-with-text">
+              <div class="caseimg">
+                <img src="img/changelog6.png" alt="нет изображения" />
+              </div>
+              <div class="caseimg">
+                <img src="img/changelog7.png" alt="нет изображения" />
+              </div>
+              <p class="regular-16">Варианты дизайна</p>
+            </div>
+            <div class="img-with-text">
+              <div class="caseimg">
+                <img src="img/changelog8.png" alt="нет изображения" />
+              </div>
+              <p class="regular-16">Финальный вариант</p>
+            </div>
+          </div>
+          <div class="case-inside-part">
+            <p class="bold-34">Результат</p>
+            <p class="regular-20">
+              После релиза снизилась нагрузка на поддержку, обращения по типу
+              “Почему я не вижу перевозку в торгах, я ее туда распредил” свелись
+              практически к нулю
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

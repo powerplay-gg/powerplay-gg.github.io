@@ -278,6 +278,14 @@ left: 179px;
 margin-top: 19px;
 }
 
+.line-exp-ru {
+  position: absolute;
+  width: 2px;
+  height: 1110px;
+  left: 179px;
+  margin-top: 19px;
+  }
+
 .list {
 padding-left: 20px;
 margin: auto;
