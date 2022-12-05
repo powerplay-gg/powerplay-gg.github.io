@@ -10,7 +10,8 @@
 
 body {
   background-color: #fafafa;
-  width: 1160px;
+  max-width: 1160px;
+  margin: auto;
 }
 
 a {
@@ -23,26 +24,19 @@ li {
   text-decoration: none;
 }
 
-
-html {
-  display: table;
-  margin: auto;
-}
-
 .mainpart {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
+  position: absolute;
   gap: 32px;
   margin: auto;
-  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   width: 1160px;
+  z-index: -1;
 }
 
 .mainpartwork {
@@ -54,7 +48,8 @@ html {
   margin-top: 280px;
   margin-bottom: 200px;
   position: relative;
-  width: 1160px;
+  max-width: 1160px;
+  min-width: 768px;
 }
 
 .mainparttext {
@@ -80,12 +75,12 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
+  z-index: 2;
   padding: 40px 0px 20px;
-  position: fixed;
-  width: 1160px;
   top: 0px;
-  left: calc(50% - 1160px / 2);
+  left: 50%;
+  right: 50%;
+  width: 1160px;
   background: #fafafa;
 }
 
