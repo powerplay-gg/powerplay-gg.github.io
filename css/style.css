@@ -1,5 +1,3 @@
-
-
 @font-face {
   font-family: "GolosTextWebVF";
   src: url(../fonts/golos-text_vf.woff2) format("woff2"),
@@ -10,8 +8,10 @@
 
 body {
   background-color: #fafafa;
-  max-width: 1160px;
+  max-width: 1240px;
   margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 a {
@@ -72,15 +72,15 @@ li {
 
 .header {
   display: flex;
+  position: sticky;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   z-index: 2;
-  padding: 40px 0px 20px;
-  top: 0px;
-  left: 50%;
-  right: 50%;
-  width: 1160px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  top: 0;
+  width: 100%;
   background: #fafafa;
 }
 
@@ -248,29 +248,29 @@ li {
 }
 
 .exp-main {
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 20px;
-width: 906px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 906px;
 }
 
 .exp-text {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-width: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 690px;
 }
 
 .line-exp {
-position: absolute;
-width: 2px;
-height: 1130px;
-left: 179px;
-margin-top: 19px;
+  position: absolute;
+  width: 2px;
+  height: 1130px;
+  left: 179px;
+  margin-top: 19px;
 }
 
 .line-exp-ru {
@@ -279,9 +279,9 @@ margin-top: 19px;
   height: 1110px;
   left: 179px;
   margin-top: 19px;
-  }
+}
 
 .list {
-padding-left: 20px;
-margin: auto;
+  padding-left: 20px;
+  margin: auto;
 }
