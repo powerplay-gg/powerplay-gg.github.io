@@ -12,6 +12,7 @@ body {
   margin: auto;
   padding-left: 40px;
   padding-right: 40px;
+  max-height: 100%;
 }
 
 a {
@@ -25,18 +26,15 @@ li {
 }
 
 .mainpart {
+  width: 600px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   position: absolute;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
   gap: 32px;
-  margin: auto;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 1160px;
-  z-index: -1;
 }
 
 .mainpartwork {
@@ -45,20 +43,30 @@ li {
   justify-content: center;
   align-items: flex-start;
   gap: 150px;
-  margin-top: 280px;
+  margin-top: 200px;
   margin-bottom: 200px;
   position: relative;
-  max-width: 1160px;
-  min-width: 768px;
+  width: 100%;
 }
 
 .mainparttext {
+  text-align: left;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  width: 759px;
+  width: 100%;
+}
+
+.idextparttext {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 100%;
 }
 
 .social {
@@ -84,6 +92,15 @@ li {
   background: #fafafa;
 }
 
+.header a {
+  transition-delay: 500ms;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
 .randomclass {
   display: flex;
   align-items: center;
@@ -98,6 +115,7 @@ li {
   align-items: flex-start;
   padding: 0px;
   gap: 60px;
+  width: 100%;
 }
 
 .card {
@@ -106,7 +124,8 @@ li {
   align-items: flex-start;
   padding: 0px;
   gap: 40px;
-  width: 1160px;
+  width: 100%;
+  color: #fafafa;
 }
 
 .cardtext {
@@ -115,8 +134,13 @@ li {
   align-items: flex-start;
   padding: 60px 0px 0px;
   gap: 40px;
-  width: 560px;
+  width: 100%;
   height: fit-content;
+}
+
+.cardimage {
+  width: 50%;
+  height: 50%;
 }
 
 .randomclass .header-wrapper {
@@ -129,7 +153,7 @@ li {
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  width: 560px;
+  width: 100%;
 }
 
 .carddescript {
@@ -138,7 +162,7 @@ li {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  width: 560px;
+  width: 100%;
   height: fit-content;
 }
 
@@ -146,11 +170,17 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding-bottom: 4px;
   gap: 8px;
   width: fit-content;
   height: 24px;
+  transition: border 100ms linear;
 }
+
+.readmore:hover {
+ border-bottom: 2px solid #252525;
+}
+
 
 .case-main {
   display: flex;
@@ -158,9 +188,9 @@ li {
   justify-content: center;
   align-items: flex-start;
   gap: 150px;
-  margin-right: 100px;
+  margin-right: 140px;
   position: relative;
-  width: 960px;
+  width: 100%;
 }
 
 .case-header {
@@ -169,7 +199,7 @@ li {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  width: 960px;
+  width: 100%;
 }
 
 .case-text {
@@ -178,7 +208,7 @@ li {
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  width: 960px;
+  width: 100%;
 }
 
 .case-inside {
@@ -187,7 +217,7 @@ li {
   align-items: flex-start;
   padding: 0px;
   gap: 60px;
-  width: 960px;
+  width: 100%;
 }
 
 .case-inside-part {
@@ -196,7 +226,7 @@ li {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  width: 960px;
+  width: 100%;
 }
 
 .caseimg {
@@ -221,21 +251,28 @@ li {
 }
 
 .backbutton {
+  display: flex ;
   margin-top: 7px;
   position: sticky;
   top: 150px;
+  border-radius: 24px;
+  transition: 200ms linear;
+}
+
+.backbutton:hover {
+  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.16)
 }
 
 .case-with-button {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   align-items: flex-start;
   gap: 60px;
-  margin-top: 280px;
+  margin-top: 200px;
   margin-bottom: 200px;
   position: relative;
-  width: 1160px;
+  width: 100%;
 }
 
 .card-text-gap16 {
@@ -284,4 +321,18 @@ li {
 .list {
   padding-left: 20px;
   margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-height: 100%;
+  }
+  .mainpart {
+width: 100%;
+  }
+  .idextparttext {
+    margin: 0 24px;
+  }
 }
