@@ -1,72 +1,97 @@
 .bold-48 {
-font-family: 'GolosTextWebVF';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 50px;
-letter-spacing: 0.04em;
-color: #252525;
+  font-family: "GolosTextWebVF";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 0.04em;
+  color: #252525;
+  width: 100%;
 }
 
 .bold-34 {
-font-family: 'GolosTextWebVF';
-font-style: normal;
-font-weight: 600;
-font-size: 34px;
-line-height: 41px;
-letter-spacing: 0.04em;
-color: #252525;
+  font-family: "GolosTextWebVF";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  color: #252525;
 }
 
 .bold-26 {
-font-family: 'GolosTextWebVF';
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.04em;
-color: #252525;
+  font-family: "GolosTextWebVF";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.04em;
+  color: #252525;
 }
 
 .bold-20 {
-font-family: 'GolosTextWebVF';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 0.05em;
-color: black;
-text-decoration: none
+  font-family: "GolosTextWebVF";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: black;
+  text-decoration: none;
 }
-    
+
 .regular-20 {
-font-family: 'GolosTextWebVF';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #252525;
+  font-family: "GolosTextWebVF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #252525;
+  width: 100%;
 }
 
 .regular-16 {
-font-family: 'GolosTextWebVF';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.03em;
-color: #9B9B9F;
+  font-family: "GolosTextWebVF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #9b9b9f;
 }
 
 .regular-20-gray {
-    font-family: 'GolosTextWebVF';
+  font-family: "GolosTextWebVF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #9b9b9f;
+  width: 145px;
+  text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+  .bold-48 {
+    font-family: "GolosTextWebVF";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+    color: #252525;
+    width: 100%;
+  }
+  .regular-20 {
+    font-family: "GolosTextWebVF";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: #9B9B9F;
-    width: 145px;
-    text-align: right;
-    }
+    color: #252525;
+    width: 100%;
+  }
+}
