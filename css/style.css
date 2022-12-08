@@ -315,8 +315,9 @@ li {
 
 @media only screen and (max-width: 767px) {
   body {
-    padding-left: 24px;
-    padding-right: 24px;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
     max-height: 100%;
   }
   .mainpart {
@@ -395,6 +396,13 @@ li {
 
   .header {
     padding-top: 20px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header img {
+    width: 100%;
   }
 
   .backbutton {
