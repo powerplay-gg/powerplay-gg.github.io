@@ -1,36 +1,56 @@
+@font-face {
+  font-family: "Golos Text";
+  src: url("../fonts/Golos-Text_Regular.eot");
+  src: local("вє"), url("../fonts/Golos-Text_Regular.woff") format("woff"),
+    url("../fonts/Golos-Text_Regular.ttf") format("truetype"),
+    url("../fonts/Golos-Text_Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Golos Text";
+  src: url("../fonts/Golos-Text_DemiBold.eot");
+  src: local("вє"), url("../fonts/Golos-Text_DemiBold.woff") format("woff"),
+    url("../fonts/Golos-Text_DemiBold.ttf") format("truetype"),
+    url("../fonts/Golos-Text_DemiBold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
 .bold-48 {
-  font-family: "Lato";
+  font-family: "Golos Text";
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 50px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   color: #252525;
   width: 100%;
 }
 
 .bold-34 {
-  font-family: "Lato";
+  font-family: "Golos Text";
   font-style: normal;
   font-weight: 600;
   font-size: 34px;
   line-height: 41px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   color: #252525;
 }
 
 .bold-26 {
-  font-family: "Lato";
+  font-family: "Golos Text";
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   color: #252525;
 }
 
 .bold-20 {
-  font-family: "Lato";
+  font-family: "Golos Text";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -41,7 +61,7 @@
 }
 
 .regular-20 {
-  font-family: "Lato";
+  font-family: "Golos Text";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -52,7 +72,7 @@
 }
 
 .regular-16 {
-  font-family: "Lato";
+  font-family: "Golos Text";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -62,7 +82,7 @@
 }
 
 .regular-20-gray {
-  font-family: "Lato";
+  font-family: "Golos Text";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -75,7 +95,7 @@
 
 @media only screen and (max-width: 767px) {
   .bold-48 {
-    font-family: "Lato";
+    font-family: "Golos Text";
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
@@ -85,7 +105,7 @@
     width: 100%;
   }
   .regular-20 {
-    font-family: "Lato";
+    font-family: "Golos Text";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -95,7 +115,7 @@
     width: 100%;
   }
   .bold-20 {
-    font-family: "Lato";
+    font-family: "Golos Text";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -105,7 +125,7 @@
     text-decoration: none;
   }
   .bold-34 {
-    font-family: "Lato";
+    font-family: "Golos Text";
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
