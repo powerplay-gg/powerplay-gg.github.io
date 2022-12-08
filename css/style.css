@@ -315,12 +315,21 @@ li {
 
 @media only screen and (max-width: 767px) {
   body {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
     max-height: 100%;
   }
+
+  .header {
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: auto;
+    background: #fafafa;
+  }
+
   .mainpart {
-    width: 100%;
+    width: 90%;
   }
   .idextparttext {
     margin: 0 24px;
@@ -337,7 +346,9 @@ li {
     margin-top: 150px;
     margin-bottom: 100px;
     position: relative;
-    width: 100%;
+    width: auto;
+    padding-left: 24px;
+    padding-right: 24px;
   }
   .card {
     display: flex;
@@ -384,17 +395,15 @@ li {
     margin-top: 130px;
     margin-bottom: 100px;
     position: relative;
-    width: 100%;
+    width: auto;
+    padding-left: 24px;
+    padding-right: 24px;
   }
   .mainparttext {
     gap: 16px;
   }
   .cardheader {
     gap: 4px;
-  }
-
-  .header img {
-    width: 100%;
   }
 
   .backbutton {
@@ -408,10 +417,6 @@ li {
     align-items: flex-start;
     gap: 100px;
     margin-right: 0px;
-  }
-
-  .header {
-
   }
 
   .case-header {
