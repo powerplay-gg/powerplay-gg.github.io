@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "GolosTextWebVF";
+  src: url(../fonts/golos-text_vf.woff2) format("woff2"),
+    url(../fonts/golos-text_vf.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .bold-48 {
   font-family: "GolosTextWebVF";
   font-style: normal;
@@ -89,7 +97,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 27px;
     letter-spacing: 0.02em;
     color: #252525;
     width: 100%;
