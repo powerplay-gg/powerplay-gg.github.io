@@ -58,7 +58,7 @@ li {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  width: 100%;
+  width: 600px;
 }
 
 .social {
@@ -338,10 +338,11 @@ li {
   }
 
   .mainpart {
-    width: 90%;
+    width: 89%;
   }
   .idextparttext {
     margin: 0 24px;
+    width: 100%;
   }
   .randomclass {
     gap: 24px;
