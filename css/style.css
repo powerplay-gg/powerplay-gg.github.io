@@ -85,12 +85,21 @@ li {
 }
 
 .header a {
-  transition-delay: 500ms;
+  height: 40px;
 }
 
-.header a:hover {
-  text-decoration: underline;
-  text-underline-position: under;
+.header p {
+  transition: border 100ms linear;
+  height: auto;
+  padding-bottom: 2px;
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+  height: auto;
+}
+
+.header p:hover {
+  border-bottom: 2px solid #252525;
 }
 
 .randomclass {
@@ -98,7 +107,7 @@ li {
   align-items: center;
   padding: 0px;
   gap: 48px;
-  height: 24px;
+  height: 40px;
 }
 
 .block-card {
