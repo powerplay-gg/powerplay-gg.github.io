@@ -109,7 +109,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 27px;
+    line-height: 25px;
     letter-spacing: 0.02em;
     color: #252525;
     width: 100%;
@@ -133,4 +133,26 @@
     letter-spacing: 0.02em;
     color: #252525;
   }
+
+  .bold-26 {
+    font-family: "Golos Text";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #252525;
+  }
+  .regular-20-gray {
+    font-family: "Golos Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #9b9b9f;
+    width: 100%;
+    text-align: left;
+  }
+
 }
