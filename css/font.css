@@ -82,6 +82,17 @@
   width: 100%;
 }
 
+.regular-20-link {
+  font-family: "Golos Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #306AFF;
+  width: 100%;
+}
+
 .regular-16 {
   font-family: "Golos Text";
   font-style: normal;
@@ -187,5 +198,15 @@
     color: #9b9b9f;
   }
   
+  .regular-20-link {
+    font-family: "Golos Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #306AFF;
+    width: 100%;
+  }
 
 }
